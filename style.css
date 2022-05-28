@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.hero img {
+.hero__img{
   width: 100%;
 }
 
-.hero .hero__link {
+.hero__link {
   font-family: fantasy, cursive;
 }
 
