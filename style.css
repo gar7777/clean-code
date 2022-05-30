@@ -139,10 +139,6 @@ button {
   width: 226px;
 }
 
-/* .task__text-input {
-  width: 226px
-} */
-
 .button_delete_img {
   height: 2em;
   transform: rotateZ(45deg);
