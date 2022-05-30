@@ -81,7 +81,7 @@ button {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.task-text-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -94,12 +94,12 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.task-text-input:focus {
   color: #333;
 }
 
 /* New Task */
-label[for="new-task"] {
+.new-task-subhead {
   display: block;
   margin: 0 0 20px;
 }
