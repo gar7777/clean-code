@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+</head>
+<body>
+  <header class="hero">
+    <img class="hero__img" src="./eisenhower-matrix.jpg" alt ="Eisenhower Matrix">
+    <a class="hero__link" 
+        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
+    </a>
+  </header>
+  <main class="todos">
+    <div id="add-field">
+      <label class="subhead new-task-subhead" for="new-task">Add Item</label>
+      <div class="task-row-wrapper">
+        <input id="new-task" class="task-text task-text-input new-task" type="text">
+        <button clas="button">Add</button>
+      </div>
+    </div>
+    <h3 class="subhead">Todo</h3>
+    <ul class="task-list" id="incomplete-tasks">
+      <li class="task-list__item">
+        <input class="task-checkbox" type="checkbox">
+        <label class="task-label task-text">Pay Bills</label>
+        <input type="text" class="task-text-input task-text">
+        <button class="button button_edit">Edit</button>
+        <button class="button button_delete">
+          <img class="button_delete_img" src="./remove.svg" alt="Remove Button">
+        </button>
+      </li>
+      <li class="task-list__item edit-mode">
+        <input class="task-checkbox" type="checkbox">
+        <label class="task-label task-text">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="task-text-input task-text">
+        <button class="button button_edit">Save</button>
+        <button class="button button_delete">
+          <img class="button_delete_img" src="./remove.svg" alt="Remove Button">
+        </button>
+      </li>
+    </ul>
+    <h3 class="subhead">Completed</h3>
+    <ul class="task-list" id="completed-tasks">
+      <li class="task-list__item">
+        <input class="task-checkbox" type="checkbox" checked>
+        <label class="task-label task-text">See the Doctor</label>
+        <input type="text" class="task-text-input task-text">
+        <button class="button button_edit">Edit</button>
+        <button class="button button_delete">
+          <img class="button_delete_img" src="./remove.svg" alt="Remove Button">
+        </button>
+      </li>
+    </ul>
+  </main>
+<script src="app.js"></script>
+</body>
+</html>
