@@ -44,13 +44,9 @@ body {
   display: flex;
 }
 
-ul {
+.task-list {
   margin: 0;
   padding: 0px;
-}
-
-li {
-  list-style: none;
 }
 
 input,
@@ -111,16 +107,17 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.task-list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style: none;
 }
 
-li > * {
+.task-list__item > * {
   vertical-align: middle;
 }
 
