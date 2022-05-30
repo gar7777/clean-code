@@ -6,7 +6,7 @@
   font-family: Lato, sans-serif;
 }
 
-/* These styles are for reset, so I left them for tags */
+/* These styles are for reset, so I left them */
 
 input,
 button {
@@ -47,7 +47,7 @@ button {
 .task__text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task__row-wrapper {
@@ -157,12 +157,12 @@ button {
 
 /* Edit Task */
 .task-list__item .task__text-input {
-  display: none
+  display: none;
 }
 
 .task-list__item.task-list__item_edit-mode .task__text-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-list__item.task-list__item_edit-mode .task__label {
