@@ -5,6 +5,13 @@ body {
   font-family: Lato, sans-serif;
 }
 
+input,
+button {
+  outline: none;
+}
+
+/* Hero */
+
 .hero {
   width: 500px;
   margin: 0 auto;
@@ -47,11 +54,6 @@ body {
 .task-list {
   margin: 0;
   padding: 0px;
-}
-
-input,
-button {
-  outline: none;
 }
 
 .button {
