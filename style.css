@@ -66,6 +66,7 @@ button {
   cursor: pointer;
 }
 
+
 .button:hover {
   color: #3a3A3a;
 }
@@ -160,11 +161,11 @@ button {
   display: none
 }
 
-.task-list__item.edit-mode .task__text-input {
+.task-list__item.task-list__item_edit-mode .task__text-input {
   display: inline-block;
   width: 224px
 }
 
-.task-list__item.edit-mode .task__label {
+.task-list__item.task-list__item_edit-mode .task__label {
   display: none;
 }
