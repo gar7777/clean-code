@@ -149,21 +149,21 @@ button {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.task-list#completed-tasks .task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task-list__item .task-text-input {
   display: none
 }
 
-ul li.edit-mode input[type=text] {
+.task-list__item.edit-mode .task-text-input {
   display: inline-block;
   width: 224px
 }
 
-ul li.edit-mode label {
+.task-list__item.edit-mode .task-label {
   display: none;
 }
