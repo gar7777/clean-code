@@ -102,7 +102,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-input#new-task {
+.new-task {
   width: 318px;
 }
 
@@ -121,18 +121,18 @@ input#new-task {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.task-checkbox {
   margin: 0 10px;
 }
 
-li > label {
+.task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li > input[type="text"] {
+.task-text-input {
   width: 226px
 }
 
